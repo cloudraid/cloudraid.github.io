@@ -1,0 +1,35 @@
+---
+
+port: 4000
+host: 0.0.0.0
+safe: false
+
+
+### site serving configuration ###
+exclude: [CNAME, .gitignore]
+permalink: / ## disables post output
+timezone: null
+lsi: false
+markdown: kramdown
+highlighter: pygments
+
+
+### content configuration ###
+title:       "CloudRaid - Cloud-based RAID Storage"
+keywords:    "cloud, raid"
+description: "CloudRaid is a simple RAID-like solution for distributed Cloud storages."
+source_link: "https://github.com/cloudraid/cloudraid"
+favicon:     "img/favicon.ico"
+touch_icon:
+google_analytics_key:
+
+
+### template colors, used site-wide via css ###
+colors:
+  black:     '#111111'
+  white:     '#f8f8f8'
+  blue:      '#49a7e9'
+  green:     '#9bcf2f'
+  purple:    '#c869bf'
+  orange:    '#fab125'
+  turquoise: '#0fbfcf'
